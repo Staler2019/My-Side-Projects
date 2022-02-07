@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+            ],
+            "windowsSdkVersion": "10.0.18362.0",
+            "compilerPath": "C:/LLVM/bin/g++.exe",
+            "cStandard": "c11",
+            "intelliSenseMode": "gcc-x64",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}

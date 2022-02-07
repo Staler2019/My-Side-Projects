@@ -1,0 +1,15 @@
+{
+  "files.associations": {
+    "*.m": "matlab",
+    "random": "cpp",
+    "iostream": "cpp",
+    "bitset": "cpp",
+    "set": "cpp",
+    "array": "cpp",
+    "deque": "cpp",
+    "list": "cpp",
+    "vector": "cpp",
+    "string_view": "cpp",
+    "string": "cpp"
+  }
+}

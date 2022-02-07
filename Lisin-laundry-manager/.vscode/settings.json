@@ -1,0 +1,16 @@
+{
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/*.exe": true,
+    "**/*.lnk": true,
+    "**/desktop.ini": true,
+    "**/.history": true,
+    "**/__pycache__": true
+  },
+  "explorerExclude.backup": null
+  // "python.analysis.extraPaths": ["./laundryManager"]
+}

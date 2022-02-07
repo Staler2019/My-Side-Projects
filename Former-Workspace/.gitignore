@@ -1,0 +1,19 @@
+# file type
+*.ini
+*.ilk
+*.pdb
+*.exe
+*.lnk
+*.data
+*.out
+*.log
+*.class
+
+# file
+input.txt
+output.txt
+main.cpp
+
+# folder
+# WorkSpaces/C++/tests/*
+*.history

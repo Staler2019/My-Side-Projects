@@ -1,0 +1,54 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Compile(TDM)", // "clang" has no <bits/stdc++.h>
+        "command": "C:/TDM-GCC-64/bin/g++.exe",
+        "args": [
+          "${file}",
+          "-o",
+          "${fileDirname}/${fileBasenameNoExtension}.exe",
+          "-g",
+          "-Wall",
+          "-static-libgcc",
+          "-std=c++17"
+        ],
+        "type": "shell",
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "presentation": {
+          "echo": true,
+          "reveal": "always",
+          "focus": false,
+          "panel": "shared"
+        },
+        "problemMatcher":"$gcc"
+      },
+      {
+        "label": "Compile(Mingw)", // "clang" has no <bits/stdc++.h>
+        "command": "C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/g++.exe",
+        "args": [
+          "${file}",
+          "-o",
+          "${fileDirname}/${fileBasenameNoExtension}.exe",
+          "-g",
+          "-Wall",
+          "-static-libgcc",
+          "-std=c++17"
+        ],
+        "type": "shell",
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "presentation": {
+          "echo": true,
+          "reveal": "always",
+          "focus": false,
+          "panel": "shared"
+        }
+      }
+    ]
+  }

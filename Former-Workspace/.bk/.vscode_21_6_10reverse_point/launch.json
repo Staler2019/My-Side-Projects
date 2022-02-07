@@ -1,0 +1,71 @@
+{
+  // 使用 IntelliSense 以得知可用的屬性。
+  // 暫留以檢視現有屬性的描述。
+  // 如需詳細資訊，請瀏覽: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "(TDM-GCC) Launch",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${fileDirname}/${fileBasenameNoExtension}.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": false, // I have turn this to false
+      "internalConsoleOptions": "neverOpen",
+      "MIMode": "gdb",
+      "miDebuggerPath": "C:/Developments/TDM-GCC-64/bin/gdb64.exe",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": false
+        }
+      ],
+      "preLaunchTask": "Compile(TDM)"
+    },
+    {
+      "name": "(Mingw) Launch",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${fileDirname}/${fileBasenameNoExtension}.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": false, // I have turn this to false
+      "internalConsoleOptions": "neverOpen",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb.exe",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": false
+        }
+      ],
+      "preLaunchTask": "Compile(Mingw)"
+    },
+    {
+      "type": "java",
+      "name": "Java (Launch) - Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "JavaFX (Launch)",
+      "request": "launch",
+      "mainClass": "${file}",
+      "vmArgs": "--module-path C:/Progra~1/Java/javafx-sdk-14.0.1/lib --add-modules javafx.controls,javafx.fxml,javafx.media"
+    },
+    {
+      "name": "Python: Current File",
+      "type": "python",
+      "request": "launch",
+      "program": "${file}"
+    }
+  ]
+}

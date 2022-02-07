@@ -1,0 +1,29 @@
+{
+  "configurations": [
+    {
+      "name": "Win32",
+      "includePath": [
+        "${workspaceRoot}",
+        // "${workspaceFolder}/../../My-Library",
+        "D:/dev_env/TDM-GCC-64/**"
+      ],
+      "defines": ["_LOCAL_", "_TEST"],
+      "windowsSdkVersion": "10.0.18362.0",
+      "compilerPath": "D:/dev_env/TDM-GCC-64/bin/g++.exe",
+      // "compilerPath": "g++",
+      "intelliSenseMode": "gcc-x64",
+      "cStandard": "c11",
+      "cppStandard": "c++17",
+      "browse": {
+        "path": [
+          "${workspaceRoot}",
+          // "${workspaceFolder}/../../My-Library",
+          "D:/dev_env/TDM-GCC-64/**"
+        ],
+        "limitSymbolsToIncludedHeaders": true,
+        "databaseFilename": ""
+      }
+    }
+  ],
+  "version": 4
+}

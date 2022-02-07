@@ -1,0 +1,3 @@
+[submodule "/Python/src/algorithm-tools"]
+	path = /Python_src/algorithm-tools
+	url = https://github.com/Ulti-Dreisteine/algorithm-tools.git

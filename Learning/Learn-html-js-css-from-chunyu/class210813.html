@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <meta http-equiv="refresh" content="5" /> -->
+    <title>Document</title>
+  </head>
+  <body>
+    <input type="search" placeholder="this is a search bar" />
+
+    <form
+      accept-charset="utf-8"
+      enctype="multipart/form-data"
+      method="POST"
+      name="myForm"
+      autocomplete="on"
+      id="form"
+      action="mailto:abcd121234@yahoo.com.tw"
+      onsubmit="return false"
+      oninput="secret.value = age.valueAsNumber + 10"
+    >
+      <p>Please input your name:</p>
+      <input
+        maxlength="16"
+        src="./210813summit/"
+        size="16"
+        name="myName"
+        accept
+        placeholder="謙謙desu"
+        form="form"
+        required
+        autofocus
+        type="text"
+      />
+
+      <p>Please tell me your age</p>
+      <input name="age" type="number" step="1" form="form" value="1" />
+
+      <p>Please input your favorite foods</p>
+      <select name="mySelection" form="form" required type="date" multiple>
+        <optgroup label="vegetable">
+          <option>Apple</option>
+          <option selected>Banana</option>
+          <option>Cat</option>
+        </optgroup>
+        <optgroup label="animal">
+          <option>Dog</option>
+          <option>Egg</option>
+          <option>Hot Dog</option>
+        </optgroup>
+      </select>
+
+      <input type="hidden" form="form" value="you can't see me" />
+
+      <p>Please give an image about you</p>
+      <input type="file" form="form" multiple />
+
+      <hr />
+
+      <input type="submit" value="提交" form="form" />
+      <input type="reset" value="重新書寫" form="form" /><br />
+      <output name="secret"></output>
+    </form>
+  </body>
+</html>

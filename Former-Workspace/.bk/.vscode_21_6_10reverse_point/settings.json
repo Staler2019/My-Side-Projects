@@ -1,0 +1,19 @@
+{
+  "files.defaultLanguage": "cpp",
+  "editor.formatOnType": true,
+  "editor.snippetSuggestions": "top",
+  "code-runner.clearPreviousOutput": false,
+  "C_Cpp.clang_format_sortIncludes": true,
+  "C_Cpp.intelliSenseEngine": "Default",
+  "C_Cpp.errorSquiggles": "Disabled",
+  "C_Cpp.autocomplete": "Disabled",
+  "clang.cflags": ["--target=x86_64-w64-mingw", "-std=c11", "-Wall"],
+  "clang.cxxflags": ["--target=x86_64-w64-mingw", "-std=c++17", "-Wall"],
+  "clang.completion.enable": true,
+  // "files.exclude": {
+  //   "Java/.vscode": true,
+  //   "Python/.vscode": true,
+  //   "C++/.vscode": true
+  // },
+  "explorerExclude.backup": null
+}

@@ -1,0 +1,2 @@
+def loadSetting():
+    pass

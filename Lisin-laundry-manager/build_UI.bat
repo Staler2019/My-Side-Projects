@@ -1,0 +1,1 @@
+pyside6-uic src/wins_ui/main.ui > manager/windows/Ui_Main.py
