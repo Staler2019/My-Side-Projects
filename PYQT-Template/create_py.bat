@@ -1,0 +1,1 @@
+pyuic5 -x McServer.ui -o McServer_ui.py
