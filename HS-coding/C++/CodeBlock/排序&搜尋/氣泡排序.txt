@@ -1,0 +1,38 @@
+int main()
+{
+   int a[5]={99,55,63,21,48};
+   int temp,i,j;
+
+   cout << "the former number:";
+
+   for(i=0;i<5;i++)
+   {
+       cout << a[i] << " ";
+   }
+
+   cout << endl;
+
+   for(i=4;i>-1;i--)
+   {
+       for(j=0;j<i+1;j++)
+       {
+           if(a[j]>a[j+1])
+           {
+            temp=a[j];
+            a[j]=a[j+1];
+            a[j+1]=temp;
+           }
+       }
+   }
+
+   cout << "the latter number:";
+
+   for(i=0;i<5;i++)
+   {
+       cout << a[i] << " ";
+   }
+
+   cout << endl;
+
+   return 0;
+}

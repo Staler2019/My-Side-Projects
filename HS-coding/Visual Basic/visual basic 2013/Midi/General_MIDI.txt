@@ -1,0 +1,144 @@
+Piano（鋼琴）
+1	Acoustic Grand Piano	平臺鋼琴
+2	Bright Acoustic Piano	亮音鋼琴
+3	Electric Grand Piano	電鋼琴
+4	Honky-tonk Piano	酒吧鋼琴
+5	Electric Piano 1	電鋼琴1
+6	Electric Piano 2	電鋼琴2
+7	Harpsichord	大鍵琴
+8	Clavinet	電翼琴
+Chromatic Percussion（固定音高敲擊樂器）
+9	Celesta	鋼片琴
+10	Glockenspiel	鐘琴
+11	Musical box	音樂盒
+12	Vibraphone	顫音琴
+13	Marimba	馬林巴琴
+14	Xylophone	木琴
+15	Tubular Bell	管鐘
+16	Dulcimer	洋琴
+Organ（風琴）
+17	Drawbar Organ	音栓風琴
+18	Percussive Organ	敲擊風琴
+19	Rock Organ	搖滾風琴
+20	Church organ	教堂管風琴
+21	Reed organ	簧風琴
+22	Accordion	手風琴
+23	Harmonica	口琴
+24	Tango Accordion	探戈手風琴
+Guitar（吉他）
+25	Acoustic Guitar(nylon)	木吉他（尼龍弦）
+26	Acoustic Guitar(steel)	木吉他（鋼弦）
+27	Electric Guitar(jazz)	電吉他（爵士）
+28	Electric Guitar(clean)	電吉他（原音）
+29	Electric Guitar(muted)	電吉他（悶音）
+30	Overdriven Guitar	電吉他（破音）
+31	Distortion Guitar	電吉他（失真）
+32	Guitar harmonics	吉他泛音
+Bass（貝斯）
+33	Acoustic Bass	民謠貝斯
+34	Electric Bass(finger)	電貝斯（指奏）
+35	Electric Bass(pick)	電貝斯（撥奏）
+36	Fretless Bass	無格貝斯
+37	Slap Bass 1	捶鉤貝斯 1
+38	Slap Bass 2	捶鉤貝斯 2
+39	Synth Bass 1	合成貝斯1
+40	Synth Bass 2	合成貝斯2
+Strings（弦樂 器）
+41	Violin	小提琴
+42	Viola	中提琴
+43	Cello	大提琴
+44	Contrabass	低音大提琴
+45	Tremolo Strings	顫弓弦樂
+46	Pizzicato Strings	彈撥弦樂
+47	Orchestral Harp	豎琴
+48	Timpani	定音鼓
+Ensemble（合奏）
+49	String Ensemble 1	弦樂合奏1
+50	String Ensemble 2	弦樂合奏2
+51	Synth Strings 1	合成弦樂1
+52	Synth Strings 2	合成弦樂2
+53	Voice Aahs	人聲「啊」
+54	Voice Oohs	人聲「喔」
+55	Synth Voice	合成人聲
+56	Orchestra Hit	交響打擊樂
+Brass（銅管 樂器）
+57	Trumpet	小號
+58	Trombone	長號
+59	Tuba	大號（吐巴號、低音號）
+60	Muted Trumpet	悶音小號
+61	French horn	法國號（圓號）
+62	Brass Section	銅管樂
+63	Synth Brass 1	合成銅管1
+64	Synth Brass 2	合成銅管2
+Reed（簧樂 器）
+65	Soprano Sax	高音薩克斯風
+66	Alto Sax	中音薩克斯風
+67	Tenor Sax	次中音薩克斯風
+68	Baritone Sax	上低音薩克斯風
+69	Oboe	雙簧管
+70	English Horn	英國管
+71	Bassoon	低音管（巴頌管）
+72	Clarinet	單簧管（黑管、豎笛）
+Pipe（吹管 樂器）
+73	Piccolo	短笛
+74	Flute	長笛
+75	Recorder	直笛
+76	Pan Flute	排笛
+77	Blown Bottle	瓶笛
+78	Shakuhachi	尺八
+79	Whistle	哨子
+80	Ocarina	陶笛
+Synth Lead（合成音主旋律）
+81	Lead 1(square)	方波
+82	Lead 2(sawtooth)	鋸齒波
+83	Lead 3(calliope)	汽笛風琴
+84	Lead 4(chiff)	合成吹管
+85	Lead 5(charang)	合成電吉他
+86	Lead 6(voice)	人聲鍵盤
+87	Lead 7(fifths)	五度音
+88	Lead 8(bass + lead)	貝斯吉他合奏
+Synth Pad（合成音和弦襯底）
+89	Pad 1(new age)	新世紀
+90	Pad 2(warm)	溫暖
+91	Pad 3(polysynth)	多重合音
+92	Pad 4(choir)	人聲合唱
+93	Pad 5(bowed)	玻璃
+94	Pad 6(metallic)	金屬
+95	Pad 7(halo)	光華
+96	Pad 8(sweep)	掃掠
+Synth Effects（合成音效果）
+97	FX 1(rain)	雨
+98	FX 2(soundtrack)	電影音效
+99	FX 3(crystal)	水晶
+100	FX 4(atmosphere)	氣氛
+101	FX 5(brightness)	明亮
+102	FX 6(goblins)	魅影
+103	FX 7(echoes)	回音
+104	FX 8(sci-fi)	科幻
+Ethnic（民族 樂器）
+105	Sitar	西塔琴
+106	Banjo	五絃琴（斑鳩琴）
+107	Shamisen	三味線
+108	Koto	十三絃琴（古箏）
+109	Kalimba	卡林巴鐵片琴
+110	Bagpipe	蘇格蘭風笛
+111	Fiddle	古提琴
+112	Shanai	獸笛，發聲機制類似嗩吶
+Percussive（打擊 樂器）
+113	Tinkle Bell	叮噹鈴
+114	Agogo	阿哥哥鼓
+115	Steel Drums	鋼鼓
+116	Woodblock	木魚
+117	Taiko Drum	太鼓
+118	Melodic Tom	定音筒鼓
+119	Synth Drum	合成鼓
+120	Reverse Cymbal	逆轉鈸聲
+Sound effects（特殊 音效）
+121	Guitar Fret Noise	吉他滑弦雜音
+122	Breath Noise	呼吸雜音
+123	Seashore	海岸
+124	Bird Tweet	鳥鳴
+125	Telephone Ring	電話鈴聲
+126	Helicopter	直升機
+127	Applause	拍手
+128	Gunshot	槍聲
