@@ -37,17 +37,12 @@ def main():
         "For downloading the mp3, please input url: "
     )
 
-    # url = "https://www.youtube.com/watch?v=RAVdUBcU70s&ab_channel=SKRpresents%E9%99%B6%E5%B1%B1%E9%9F%B3%E6%A8%82"
-    # url = "https://www.youtube.com/watch?v=ucilRHmNoEs&ab_channel=%E5%9C%A8%E5%9C%B0%E4%B8%8A%E6%BB%BE%E7%9A%84%E5%B7%A5%E7%A8%8B%E5%B8%ABNic"
-
     if "youtube.com" not in url:
         print("This is not a YouTube url")
         return
 
     if "list" in url:  # playlist
         playlist = Playlist(url)
-        pool = mp.Semaphore(4)
-        mp_list = []
 
         with mp.Pool(
             processes=MULTI_PROCESSING_NUMBER
